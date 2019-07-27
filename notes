@@ -1,0 +1,7 @@
+# Install python packages: (python 2)
+pip install absl-py
+pip install nose tornado
+sudo pip install --ignore-installed pycolab # flag needed to stop numpy disutils error
+
+# Run a game:
+PYTHONPATH=. python -B ai_safety_gridworlds/environments/boat_race.py
